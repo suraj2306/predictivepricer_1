@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="http://data.treasury.gov/Feed.svc/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">DailyTreasuryYieldCurveRateData</title>
+  <id>http://data.treasury.gov/feed.svc/DailyTreasuryYieldCurveRateData</id>
+  <updated>2015-11-28T17:49:11Z</updated>
+  <link rel="self" title="DailyTreasuryYieldCurveRateData" href="DailyTreasuryYieldCurveRateData" />
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6467)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6467)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6467</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-02T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.01</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.08</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.27</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.37</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.77</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.08</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.57</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">1.93</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.2</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.6</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">2.95</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">2.95</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6468)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6468)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6468</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-03T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.07</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.06</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.26</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.39</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.8</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.1</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.59</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">1.96</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.23</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.65</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6469)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6469)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6469</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-04T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.07</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.05</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.27</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.4</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.84</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.16</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.64</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">1.99</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.25</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.66</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6470)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6470)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6470</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-05T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.04</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.05</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.27</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.42</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.85</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.16</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.65</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.26</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.68</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.01</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.01</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6471)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6471)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6471</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-06T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.04</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.08</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.32</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.47</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.9</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.23</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.73</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.09</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.34</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.76</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.09</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.09</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6472)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6472)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6472</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-09T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.06</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.14</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.34</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.47</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.89</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.27</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.75</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.11</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.36</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.79</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.12</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.12</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6473)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6473)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6473</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-10T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.08</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.13</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.34</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.51</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.87</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.22</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.72</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.08</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.32</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.76</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.1</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.1</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6474)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6474)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6474</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-12T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.08</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.14</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.35</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.51</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.89</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.24</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.73</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.09</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.32</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.75</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.09</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.09</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6475)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6475)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6475</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-13T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.03</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.14</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.31</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.5</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.86</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.2</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.67</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.05</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.28</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.72</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.06</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.06</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6476)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6476)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6476</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-16T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.05</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.15</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.33</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.5</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.88</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.18</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.66</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.02</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.27</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.72</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.07</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.07</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6477)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6477)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6477</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-17T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.07</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.14</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.34</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.5</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.86</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.18</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.66</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.02</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.25</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.69</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.04</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.04</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6478)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6478)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6478</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-18T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.07</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.12</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.31</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.49</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.9</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.21</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.69</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.04</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.27</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.7</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.04</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.04</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6479)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6479)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6479</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-19T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.06</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.11</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.31</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.49</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.91</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.21</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.68</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.02</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.24</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.66</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6480)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6480)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6480</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-20T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.05</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.12</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.31</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.49</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.93</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.23</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.7</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.04</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.26</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.68</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3.02</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3.02</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6481)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6481)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6481</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-23T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.06</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.14</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.35</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.5</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.94</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.26</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.7</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.03</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.25</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.66</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6482)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6482)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6482</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-24T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.13</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.16</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.36</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.52</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.93</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.23</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.66</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.01</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.24</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.65</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6483)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6483)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6483</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-25T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.14</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.19</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.39</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.52</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.93</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.25</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.66</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">2.01</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.23</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.64</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>http://data.treasury.gov/Feed.svc/DailyTreasuryYieldCurveRateData(6484)</id>
+    <title type="text"></title>
+    <updated>2015-11-28T17:49:11Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="DailyTreasuryYieldCurveRateDatum" href="DailyTreasuryYieldCurveRateData(6484)" />
+    <category term="TreasuryDataWarehouseModel.DailyTreasuryYieldCurveRateDatum" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:Id m:type="Edm.Int32">6484</d:Id>
+        <d:NEW_DATE m:type="Edm.DateTime">2015-11-27T00:00:00</d:NEW_DATE>
+        <d:BC_1MONTH m:type="Edm.Double">0.13</d:BC_1MONTH>
+        <d:BC_3MONTH m:type="Edm.Double">0.18</d:BC_3MONTH>
+        <d:BC_6MONTH m:type="Edm.Double">0.38</d:BC_6MONTH>
+        <d:BC_1YEAR m:type="Edm.Double">0.5</d:BC_1YEAR>
+        <d:BC_2YEAR m:type="Edm.Double">0.92</d:BC_2YEAR>
+        <d:BC_3YEAR m:type="Edm.Double">1.23</d:BC_3YEAR>
+        <d:BC_5YEAR m:type="Edm.Double">1.64</d:BC_5YEAR>
+        <d:BC_7YEAR m:type="Edm.Double">1.99</d:BC_7YEAR>
+        <d:BC_10YEAR m:type="Edm.Double">2.22</d:BC_10YEAR>
+        <d:BC_20YEAR m:type="Edm.Double">2.64</d:BC_20YEAR>
+        <d:BC_30YEAR m:type="Edm.Double">3</d:BC_30YEAR>
+        <d:BC_30YEARDISPLAY m:type="Edm.Double">3</d:BC_30YEARDISPLAY>
+      </m:properties>
+    </content>
+  </entry>
+</feed>
