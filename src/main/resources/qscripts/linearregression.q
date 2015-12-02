@@ -48,4 +48,6 @@ f: "f"$(f;k;k;k;k;k)
 sol:f lsq X
 sol: sol[0]
 
+weights:([]alias:`7YR;c:sol[0];w0:sol[1];w1:sol[2];w2:sol[3])
+
 

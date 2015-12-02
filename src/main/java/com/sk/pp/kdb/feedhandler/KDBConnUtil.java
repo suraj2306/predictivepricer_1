@@ -58,7 +58,7 @@ public class KDBConnUtil {
 			Statement stmt = null;
 			stmt = jdbcConn.createStatement();
 
-			ResultSet rs = stmt.executeQuery("SELECT c, w1, w2, w3 FROM weights");
+			ResultSet rs = stmt.executeQuery("SELECT c, w1, w2, w3 FROM weights where alias=`"+alias);
 
 			while (rs.next()) {
 				Double c = rs.getDouble("c");
