@@ -11,22 +11,28 @@ import org.apache.log4j.Logger;
 
 import com.sk.pp.core.PriceListener;
 import com.sk.pp.core.PriceUpdate;
+import com.sk.pp.kdb.feedhandler.KDBConnUtil;
 
 public class OTRPriceListener implements PriceListener{
 	Logger log = Logger.getLogger(OTRPriceListener.class);
 
-	private RealVector currentPrices = new ArrayRealVector(3);
-	private RealVector previousPrices = new ArrayRealVector(3);
+	private double[] initialPrices_t1 = {101.99,99.334,102.334}; 
+	private double[] initialPrices_t0 = {101.99,99.334,102.334}; 
 	
-	private static String[] predictorVariables = {"5YR_MID","10YR_MID", "30YR_MID"};	
+	private RealVector currentPrices = new ArrayRealVector(initialPrices_t1);
+	private RealVector previousPrices = new ArrayRealVector(initialPrices_t0);
+	
+	private static List<String> predictorVariables = Arrays.asList("5YR_MID","10YR_MID", "30YR_MID");	
 	private String[] responseVariables =  {"7RY_MID"};
 	
 	@Override
 	public void OnPriceUpdate(PriceUpdate price) {
 		String key=price.getAlias();
-		if(Arrays.asList(predictorVariables).contains(key))
-		{
-		   AddBasedOnKey(key,price);
+		if(predictorVariables.contains(key))
+		{ 
+			int index = predictorVariables.indexOf(key);
+			previousPrices.setEntry(index, currentPrices.getEntry(index));
+			currentPrices.setEntry(index,price.getPrice());
 		   recaliberate();
 		}
 		
@@ -38,33 +44,34 @@ public class OTRPriceListener implements PriceListener{
 	}
 
 	private void recaliberate() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void AddBasedOnKey(String key, PriceUpdate price) {
-		
-		List<String> predVariables = Arrays.asList(predictorVariables);
-		if(predVariables.contains(key))
+		try
 		{
-			int index=predVariables.indexOf(key);
-			if(price.getPrice()!=null)
-			{
-				if(!Double.isNaN(currentPrices.getEntry(index)))
-				{
-					previousPrices.addToEntry(index, currentPrices.getEntry(index));
-				}
-				currentPrices.addToEntry(index, price.getPrice());
-				
-			}
+		for(String responseVar : responseVariables)
+		{
+		double newPrice = Double.NaN;
+		double[] weights = KDBConnUtil.getWeights(responseVar);
+		if(weights!=null)
+		{
+			RealVector weightVector = new ArrayRealVector(weights);
+			newPrice=weightVector.getSubVector(1, 3).dotProduct(currentPrices);
+			newPrice=newPrice + weights[0];
+		}
+		log.info("Predicted Price for alias : " + responseVar + " is " + newPrice) ;
+		}
+		}
+		catch(Exception ex)
+		{
+			log.error("Error recaliberating",ex);
 		}
 	}
 
-	public static String[] getPredictorVariables() {
+	
+
+	public List<String> getPredictorVariables() {
 		return predictorVariables;
 	}
 
-	public static void setPredictorVariables(String[] predictorVariables) {
+	public static void setPredictorVariables(List<String> predictorVariables) {
 		OTRPriceListener.predictorVariables = predictorVariables;
 	}
 
